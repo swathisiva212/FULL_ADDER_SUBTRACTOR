@@ -60,9 +60,10 @@ Full subtractor
 5. For different input combinations generate the timing diagram.
 
 **Program:**
+```
 Developed by:Abinaya.A
 Reg no:212223040003
-
+```
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 ```
