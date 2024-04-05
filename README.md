@@ -95,12 +95,13 @@ endmodule
 
 **RTL Schematic**
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/39db4515-63b0-4892-9653-e96fe2af5376)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/0591f794-532c-48e0-b884-7dbc6f15fbd5)
+
 
 **Output Timing Waveform**
 FULL ADDER :
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/523c25e9-478d-4fdd-b3c3-dc1abbeb0f2c)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/38579431-86bb-4bdc-ab0c-be444c2720d0)
 
 
 FULL SUBTRACTOR:
