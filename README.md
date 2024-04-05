@@ -47,66 +47,38 @@ FULL SUBTRACTOR :
 
 **Procedure**
 
-Write the detailed procedure here
-```
-**Full Adder:**
-1.Open Quartus II and create a new project.
-2.Use schematic design entry to draw the full adder circuit. 
-3.The circuit consists of XOR, AND, and OR gates. 
-4.Compile the design, verify its functionality through simulation. 
-5.Implement the design on the target device and program it.
 
-**Full Subtractor:** 
-1.Follow the same steps as for the full adder. 
-2.Draw the full subtractor circuit using schematic design. 
-3.The circuit includes XOR, AND, OR gates to perform subtraction. 
-4.Compile, simulate, implement, and program the design similarly to the full adder.
-```
 **Program:**
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: swathi.s RegisterNumber:212223040219
 */
-```
 
 ## Full_adder
-module fulladd_top(a,b,cin,sum,carry);
-input a,b,cin;
-output sum,carry;
-wire w1,w2,w3,w4;       
-xor(w1,a,b);
-xor(sum,w1,cin);        
 
-and(w2,a,b);
-and(w3,b,cin);
-and(w4,cin,a);
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/3f08402f-4914-46fd-8389-1bee6c532743)
 
-or(carry,w2,w3,w4);
-endmodule 
+ FULL SUBTACTOR:
 
-## Full_subtractor
-module fullsub_top(a,b,Bin,BO,DIFF);
-input a,b,Bin;
-output BO,DIFF;
-assign DIFF = a ^ b ^ Bin;
-  assign BO = (a & b) | ((a ^ b) & Bin);
-endmodule
-
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/b758b1b1-839d-4a11-a4ce-80b4138e8343)
 
 
 **RTL Schematic**
+ FULL ADDER:
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/0591f794-532c-48e0-b884-7dbc6f15fbd5)
-
-
-**Output Timing Waveform**
-FULL ADDER :
-
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/38579431-86bb-4bdc-ab0c-be444c2720d0)
-
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/3d47a91c-ed04-44d4-a785-f09eeb8ca50e)
 
 FULL SUBTRACTOR:
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/19c1a9a8-19d3-4292-8c68-642f58cf332c)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/e40e8c59-f972-4202-ac06-cae6b2018738)
+
+
+**Output Timing Waveform**
+
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/58810d63-f307-435c-a069-f2a0361018de)
+
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/784ada33-1cfd-4d3e-8205-43f644df99af)
+
+
 
 **Result:**
 
