@@ -40,6 +40,7 @@ Borrow out = A'Bin + A'B + BBin
 FULL ADDER :
 
 ![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/f00971bd-64e8-42a8-9695-47ce0062c858)
+
 FULL SUBTRACTOR :
 
 ![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/b7349761-eb26-465b-8b7c-c11548e93e47)
@@ -94,15 +95,17 @@ endmodule
 
 **RTL Schematic**
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/8d878abb-5708-4fc6-ad3b-404cec41531d)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/39db4515-63b0-4892-9653-e96fe2af5376)
 
 **Output Timing Waveform**
 FULL ADDER :
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/4695b528-b68b-41aa-9074-1ab37bb396ae)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/523c25e9-478d-4fdd-b3c3-dc1abbeb0f2c)
+
+
 FULL SUBTRACTOR:
 
-![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/7ff17efd-8ce3-4f8e-978f-89dcdf6d491e)
+![image](https://github.com/swathisiva212/FULL_ADDER_SUBTRACTOR/assets/155249892/19c1a9a8-19d3-4292-8c68-642f58cf332c)
 
 **Result:**
 
